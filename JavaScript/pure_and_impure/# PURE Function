@@ -1,0 +1,7 @@
+# PURE Function
+
+--> Doesn't depends upon outer scope
+--> No side effect , doesn't modify outer scope
+--> Same unit ==> alway sthe same output
+--> Easy to use read and debugg
+--> It not always possible to make pure function

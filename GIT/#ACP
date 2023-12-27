@@ -1,0 +1,39 @@
+#Git Hub
+
+#Git clone 
+
+To clone repo ====> git clone githublink
+
+
+#Branch commands
+
+To create new branch =====> git checkout -b branchname
+To go to other branch =====> git checkout branchname
+
+If you have pre existing project:
+create a repo
+git init
+git remote ...
+
+#ACP
+
+git add . --------> adding branch
+git commit -u "Message" -------> commiting message
+git push -u origin branch -----> pushing branch
+
+
+#Pull ------> getting codes
+git pull origin branchname
+
+
+#Fetch ------> getting update
+git fetch
+
+#Status -----> getting info about which branch
+git status
+
+
+#After changing some code you will have 3 decission: 
+Decission 1 : you dont want the current changes leave it =====> git stash / git reset --hard
+Decission 2 : you might new this code for future use ======> git checkout -b tempbranch and then ACP
+Decission 3 : this changes are must code ======> ACP
